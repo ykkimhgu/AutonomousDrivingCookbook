@@ -14,8 +14,6 @@ Here's a short sample of the model in action:
 
 ![car-driving](car_driving.gif)
 
-
-
 ## Structure of this tutorial
 
 The code presented in this tutorial is written in [Keras](https://keras.io/), a high-level deep learning Python API capable of running on top of [CNTK](https://www.microsoft.com/en-us/cognitive-toolkit/), [TensorFlow](https://www.tensorflow.org/) or [Theano](http://deeplearning.net/software/theano/index.html). The fact that Keras lets you work with the deep learning framework of your choice, along with its simplicity of use, makes it an ideal choice for beginners, eliminating the learning curve that comes with most popular frameworks.
@@ -39,6 +37,18 @@ You should be familiar with the basics of neural networks and deep learning. You
 You should also be comfortable with Python. At the very least, you should be able to read and understand code written in Python. 
 
 ### Environment Setup
+0. Clone the tutorial git repository
+   'https://github.com/microsoft/AutonomousDrivingCookbook'
+
+   * Download the repository as zip file or
+
+   * From a terminal window, change to the local directory where you want to clone
+
+        ```
+        git clone https://github.com/microsoft/AutonomousDrivingCookbook.git
+        ```
+
+    > [Read clone a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more help
 
 1. [Install Anaconda](https://conda.io/docs/user-guide/install/index.html) with Python 3.5 or higher.
 2. [Install CNTK](https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-your-machine) or [install Tensorflow](https://www.tensorflow.org/install/install_windows)
